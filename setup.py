@@ -8,7 +8,7 @@ import setuptools
 import zeckendorf
 
 description = cleandoc(zeckendorf.__doc__)
-with open('README.md', 'r') as fh:
+with open('README.rst', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
