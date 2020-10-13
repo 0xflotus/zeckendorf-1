@@ -35,8 +35,8 @@ extensions = [
 
 autodoc_member_order = 'bysource'
 autodoc_default_options = {
-    'members': True,
-    'show-inheritance': True,
+    'members': None,
+    'show-inheritance': None,
 }
 autosummary_generate = True
 
