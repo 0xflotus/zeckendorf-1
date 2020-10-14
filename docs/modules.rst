@@ -5,3 +5,4 @@ Modules
    :toctree: _autosummary
 
    base
+   binary

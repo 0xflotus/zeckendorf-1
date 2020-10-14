@@ -1,4 +1,5 @@
 """
 Tools for working with Zeckendorf representations.
 """
-from zeckendorf.base import zeck
+from zeckendorf import base, binary
+from zeckendorf.base import negazeck, zeck
