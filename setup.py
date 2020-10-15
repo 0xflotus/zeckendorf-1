@@ -13,10 +13,10 @@ with open('README.rst', 'r') as fh:
 
 setuptools.setup(
     name='zeckendorf',
-    version='0.0.1',
+    version='0.0.2',
     description=description,
     long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description_content_type='text/x-rst',
     url='https://github.com/omaitzen/zeckendorf',
     author='Owen Maitzen',
     author_email='owenmaitzen@gmail.com',
