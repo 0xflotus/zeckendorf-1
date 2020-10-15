@@ -36,7 +36,7 @@ def _ordered_in(contained, container):
             yield False
 
 
-def fromiter(iterable, /):
+def fromiter(iterable):
     """
     Construct a binary number from a finite iterable, where the ith bit
     from the right is the truth value of the iterable's ith item.
@@ -294,4 +294,5 @@ def fibcode_toint(codeword, nega=False):
 
 
 if __name__ == '__main__':
-    [(print(n, '=>', str_fromint(n))) for n in range(20)]
+    # example: print bitstrings for Zeckendorf representations from 0-99
+    [(print(n, '=>', str_fromint(n))) for n in range(100)]
